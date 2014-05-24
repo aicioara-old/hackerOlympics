@@ -6,6 +6,10 @@
 
 
 
+	<div id="data"></div>
+
+
+
 	<script src="jquery.js"> </script>
 
 	<script>
@@ -13,16 +17,8 @@
 		function doIt(to, from, text) {
 
 			$.ajax({
-				url: "https://api.sendgrid.com/api/mail.send.json",
-				method: "post",
-				data : {
-					"api_user" : "andreifirst",
-					"api_key" : "andreici7",
-					"subject": "hacker",
-					"to" : to,
-					"from": from,
-					"text" : text
-				},
+				url: "http://hacker-olympics-london.herokuapp.com/leaderboard.json",
+				method: "get",
 				async: false,
 				success: function(result) {
 				}
