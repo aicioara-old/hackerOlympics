@@ -35,9 +35,7 @@
 
 
 
-	<div id="second"></div>
-	<div id="first"></div>
-	<div id="third"></div>
+	<div id="first"></div> Winners
 
 	<div id="data"></div>
 
@@ -55,13 +53,11 @@
 				async: false,
 				success: function(result) {
 					console.log(result[4]);
-					$('#first').html(result[1].name + "-" + result[1].points);
-					$('#second').html(result[2].name + "-" + result[2].points);
-					$('#third').html(result[3].name + "-" + result[3].points);
+					$('#first').html(result[12].name + "-" + result[12].points);
 				}
 			});
 		}
-		
+
 		//I was here
 
 		doIt();
