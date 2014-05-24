@@ -2,6 +2,29 @@
 
 <head></head>
 
+<style>
+
+#first {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+
+#second {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+
+#third {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+
+}
+
+</style>
+
 <body>
 
 
