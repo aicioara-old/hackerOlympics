@@ -6,6 +6,10 @@
 
 
 
+	<div id="first"></div>
+	<div id="second"></div>
+	<div id="third"></div>
+
 	<div id="data"></div>
 
 
@@ -21,10 +25,13 @@
 				method: "get",
 				async: false,
 				success: function(result) {
+					console.log(result[4]);
 				}
 			});
 		}
 
+
+		doIt();
 	</script>
 
 </body>
