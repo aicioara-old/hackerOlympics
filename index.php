@@ -7,7 +7,7 @@
 #first {
 	width: 100px;
 	height: 100px;
-	background-color: yellow;
+	background-color: #D9A441;
 	display: inline-block;
 	line-height: 100px;
 }
@@ -15,7 +15,7 @@
 #second {
 	width: 100px;
 	height: 100px;
-	background-color: blue;
+	background-color: #CCC2C2;
 	display: inline-block;
 	line-height: 100px;
 }
@@ -23,7 +23,7 @@
 #third {
 	width: 100px;
 	height: 100px;
-	background-color: green;
+	background-color: #965A38;
 	display: inline-block;
 	line-height: 100px;
 
