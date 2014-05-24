@@ -8,18 +8,24 @@
 	width: 100px;
 	height: 100px;
 	background-color: yellow;
+	display: inline-block;
+	line-height: 100px;
 }
 
 #second {
 	width: 100px;
 	height: 100px;
 	background-color: blue;
+	display: inline-block;
+	line-height: 100px;
 }
 
 #third {
 	width: 100px;
 	height: 100px;
 	background-color: green;
+	display: inline-block;
+	line-height: 100px;
 
 }
 
@@ -29,8 +35,8 @@
 
 
 
-	<div id="first"></div>
 	<div id="second"></div>
+	<div id="first"></div>
 	<div id="third"></div>
 
 	<div id="data"></div>
