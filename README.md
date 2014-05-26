@@ -1,9 +1,5 @@
 hackerOlympics
 ==============
-- alessio
-- alessio1
+This repository is left as a memory of the awesome hacker olympics competition.
 
-
-Glenn was here
-
-Quang
+A full editorial might follow soon
